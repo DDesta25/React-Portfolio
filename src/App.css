@@ -1,3 +1,37 @@
+#turtle {
+    position: absolute;
+    animation: swimming 20s linear infinite;
+    height: auto;
+    width: 20vw;
+    top: 50vh;
+  }
+  @-webkit-keyframes swimming {
+    0% {
+      transform: translateX(-30vw) translateY(0);
+    }
+    25% {
+      transform: translateX(10vw) translateY(-20vh);
+    }
+    50% {
+      transform: translateX(50vw) translateY(0);
+    }
+    75% {
+      transform: translateX(100vw) translateY(30vh);
+    }
+    100% {
+      transform: translateX(150vw) translateY(10vh);
+    }
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+
+
 body{
     background-image: url("./assets/0.png");
     background-repeat: no-repeat;

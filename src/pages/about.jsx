@@ -1,29 +1,60 @@
 import React from "react";
-import aboutPic from "../assets/buddy.jpg"
+import aboutPic from "../assets/buddy.jpg";
 export default function About() {
-    return (
-        <div>
-        <div className="container-fluid bg-light">
-            <div className="row ">
-                <div className="col-md-5 col-sm-12  " >
-                    <img src= {aboutPic} alt="..."  />
-                </div>
-                <div className="col-md-7 col-sm-12 align-self-center">
-                    <h1>Daniel Desta</h1>
-                    <h2>Junior Web Developer</h2>
-                </div>
-            </div>
-            <hr />
+  return (
+    <div>
+      <div className="container-fluid bg-light">
+        <div className="row ">
+          <div className="col-md-5 col-sm-12  ">
+            <img src={aboutPic} alt="..." />
+          </div>
+          <div className="col-md-7 col-sm-12 align-self-center">
+            <h1>Daniel Desta</h1>
+            <h2>Junior Web Developer</h2>
+          </div>
         </div>
-        <div className="container">
-            <div className="row">
-                <div className="col-sm-12">
-                    <h1 className="bg-black text-color-light badge text-bg-primary text-wrap">Bio</h1>
-                    <p className="bg-light text-secondary">Are you ready to stand out in the world of web development? Look no further! I am a dedicated and ambitious junior web developer in training, currently enrolled in a comprehensive full stack web development course. Equipped with a solid foundation in CSS, JavaScript, HTML, React, Node.js, MongoDB, and Express.js, I am eager to dive headfirst into the world of coding. With a passion for learning and a hunger to excel, I am determined to master the craft of web development. I am a fast learner, always up for new challenges, and will give my absolute best to any project or opportunity that comes my way. So, if you're seeking a talented and committed junior web developer who is ready to make a mark in the industry, look no further. I am here, ready to bring your vision to life and contribute to your team's success. Let's embark on this exciting journey together!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid sequi eligendi pariatur qui nemo. Ipsum iusto, facilis, tempora, repudiandae accusamus error voluptatem unde ducimus delectus aut suscipit dignissimos excepturi! Est!</p>
-                </div>
-            </div>
+        <hr />
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <h1 className="bg-black text-color-light badge text-bg-primary text-wrap">
+              Bio
+            </h1>
+            <p className="bg-light text-secondary">
+              I'm a junior Web Developer, a passionate individual who finds joy in the wonders of
+              nature and the companionship of animals. With a heart filled with
+              love for the outdoors, I thrive in natural surroundings, finding
+              solace and inspiration in every step taken outside. Not only do I
+              have a deep affinity for nature, but I also possess a fervent
+              devotion to our furry and feathered friends. Encountering animals
+              of all shapes and sizes sparks an indescribable joy within me, as
+              I believe in the importance of cherishing and preserving all forms
+              of life. In addition to my love for animals and the natural world,
+              I have a zest for various sports such as basketball and football.
+              Engaging in these activities not only showcases my competitive
+              spirit but also highlights my ability to work as part of a team
+              and remain focused on a common goal. With an adventurous spirit
+              and an appreciation for the great outdoors, I embrace every
+              opportunity to explore and engage in outdoor activities. Whether
+              it's hiking through breathtaking trails, camping beneath starlit
+              skies, or simply reveling in the beauty of nature, I derive
+              boundless happiness from these extraordinary experiences. If
+              you're searching for someone who possesses a true love for
+              animals, a passion for outdoor adventures, and a keen interest in
+              sports, look no further than me. I am eager to harness my skills
+              and bring my enthusiasm to any endeavor, making a positive impact
+              and leaving a lasting impression along the way.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+              sequi eligendi pariatur qui nemo. Ipsum iusto, facilis, tempora,
+              repudiandae accusamus error voluptatem unde ducimus delectus aut
+              suscipit dignissimos excepturi! Est!
+            </p>
+          </div>
         </div>
-        </div>
-        );
-    }
+      </div>
+    </div>
+  );
+}
