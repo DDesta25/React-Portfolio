@@ -1,12 +1,12 @@
 import React from "react";
-import aboutPic from "../assets/buddy.jpg";
+import aboutPic from "../assets/profile_720.png";
 export default function About() {
   return (
     <div>
-      <div className="container-fluid bg-light">
-        <div className="row ">
+      <div className="container bg-light rounded">
+        <div className="row fixed ">
           <div className="col-md-5 col-sm-12  ">
-            <img src={aboutPic} alt="..." />
+            <img className="img-fluid about-pic" src={aboutPic} alt="" />
           </div>
           <div className="col-md-7 col-sm-12 align-self-center">
             <h1>Daniel Desta</h1>
@@ -15,7 +15,7 @@ export default function About() {
         </div>
         <hr />
       </div>
-      <div className="container">
+      <div className="container bg-light rounded">
         <div className="row">
           <div className="col-sm-12">
             <h1 className="bg-black text-color-light badge text-bg-primary text-wrap">
