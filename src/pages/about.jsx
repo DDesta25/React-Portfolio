@@ -34,7 +34,10 @@ export default function About() {
               I have a zest for various sports such as basketball and football.
               Engaging in these activities not only showcases my competitive
               spirit but also highlights my ability to work as part of a team
-              and remain focused on a common goal. With an adventurous spirit
+              and remain focused on a common goal. 
+            </p>
+            <p className="bg-light text-secondary">
+            With an adventurous spirit
               and an appreciation for the great outdoors, I embrace every
               opportunity to explore and engage in outdoor activities. Whether
               it's hiking through breathtaking trails, camping beneath starlit
@@ -45,12 +48,6 @@ export default function About() {
               sports, look no further than me. I am eager to harness my skills
               and bring my enthusiasm to any endeavor, making a positive impact
               and leaving a lasting impression along the way.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              sequi eligendi pariatur qui nemo. Ipsum iusto, facilis, tempora,
-              repudiandae accusamus error voluptatem unde ducimus delectus aut
-              suscipit dignissimos excepturi! Est!
             </p>
           </div>
         </div>
