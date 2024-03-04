@@ -4,39 +4,39 @@ import ProjectCards from "../components/projectCard";
 export default function Portfolio() {
   const projects = [
     {
-      title: "project 1",
+      title: "PWA-Text-Editor",
       description: "lorem",
+      image: "![alt text](image.png)",
+      repoLink: "https://github.com/DDesta25/PWA-Text-Editor",
+      deployedLink: "https://pwa-text-editor-xeab.onrender.com/"
+    },
+    {
+      title: "E-commerce-Backend",
+      description: "",
       image: "",
-      repoLink: "",
+      repoLink: "https://github.com/DDesta25/E-commerce-Backend",
       deployedLink: "",
     },
     {
-      title: "project 2",
+      title: "Social-Network",
       description: "",
       image: "",
-      repoLink: "",
+      repoLink: "https://github.com/DDesta25/Social-Network",
+      deployedLink: ""
+    },
+    {
+      title: "By Odin's Beer'd",
+      description: "This app is designed yo locate the nearest brewery to you're location",
+      image: "![Alt text](assets/images/load.png)",
+      repoLink: "https://github.com/Jbyrd126/By_Odins_Beerd",
       deployedLink: "",
     },
     {
-      title: "project 3",
-      description: "",
-      image: "",
-      repoLink: "",
-      deployedLink: "",
-    },
-    {
-      title: "project 4",
-      description: "",
-      image: "",
-      repoLink: "",
-      deployedLink: "",
-    },
-    {
-      title: "project 5",
-      description: "",
-      image: "",
-      repoLink: "",
-      deployedLink: "",
+      title: "WharfRat",
+      description: "A Grateful Dead App for you're wildest dreams",
+      image: "![alt text](image.png)",
+      repoLink: "https://github.com/Jbyrd126/WharfRat",
+      deployedLink: "https://wharf-rat-11de69f4736c.herokuapp.com/",
     },
     {
       title: "project 6",

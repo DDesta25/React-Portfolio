@@ -42,4 +42,4 @@ tekoladaniel@gmail.com
   
   
   ## Tests
-  npm start
+  npm run dev
