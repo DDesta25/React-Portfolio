@@ -3,7 +3,7 @@ import aboutPic from "../assets/profile_720.png";
 export default function About() {
   return (
     <div>
-      <div className="container bg-light rounded">
+      <div className="container bg-secondary rounded">
         <div className="row fixed ">
           <div className="col-md-5 col-sm-12  ">
             <img className="img-fluid about-pic" src={aboutPic} alt="" />
@@ -15,13 +15,13 @@ export default function About() {
         </div>
         <hr />
       </div>
-      <div className="container bg-light rounded">
+      <div className="container bg-secondary rounded">
         <div className="row">
           <div className="col-sm-12">
             <h1 className="bg-black text-color-light badge text-bg-primary text-wrap">
               Bio
             </h1>
-            <p className="bg-light text-secondary">
+            <p className="bg-light text-midnight-black">
               I'm a junior Web Developer, a passionate individual who finds joy in the wonders of
               nature and the companionship of animals. With a heart filled with
               love for the outdoors, I thrive in natural surroundings, finding
@@ -36,7 +36,7 @@ export default function About() {
               spirit but also highlights my ability to work as part of a team
               and remain focused on a common goal. 
             </p>
-            <p className="bg-light text-secondary">
+            <p className="bg-light text-midnight-black">
             With an adventurous spirit
               and an appreciation for the great outdoors, I embrace every
               opportunity to explore and engage in outdoor activities. Whether

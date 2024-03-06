@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <Header/>
-      <main className='vh-100'><Outlet/></main>
+      <main className='min-vh-100'><Outlet/></main>
 <Footer/>
 
     </>

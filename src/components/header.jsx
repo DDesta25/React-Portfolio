@@ -38,7 +38,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="nav-item badge text-bg-primary text-wrap">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#" target="_blank">
                 Resume
               </a>
             </li>

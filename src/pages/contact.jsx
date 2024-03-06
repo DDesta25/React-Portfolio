@@ -1,7 +1,7 @@
 import React from "react";
 export default function Contact() {
     return (
-        <div className="container bg-light rounded p-5">
+        <div className="container bg-secondary rounded p-5">
         <h1>Contact</h1>
         <form>
   <div class="mb-3">
